@@ -16,33 +16,36 @@ Z0.0			(Move the pen to the paper)
 G91       (Change to Incremental positioning)
 
 (MOVEMENTS TO SOLVE THE MAZE)
-X0.0 Y0.0
-X0.5 Y0.0
-X0.0 Y0.5
-X0.0 Y1.0
-X0.5 Y0.0
-X0.0 Y0.75
-X0.75 Y0.0
-X-1.5 Y1.0
-X0.25 Y0.0
-X0.0 Y0.25
-X-0.25 Y0.0
-X0.0 Y1.0
-X0.0 Y-0.75
-X1.0 Y0.0
-X0.0 Y0.25
-X0.75 Y0.0
-X0.0 Y1.0
-X-0.75 Y0.0
-X1.75 Y-1.0
-X0.75 Y0.0
-X0.0 Y0.75
-X-1.0 Y0.0
-X-0.5 Y0.75
-X0.0 Y1.25
-X0.25 Y0.0
-X-0.25 Y-0.25
-X0.25 Y0.25
+X0.0 Y0.5 (North)  
+X0.5 Y0.0 (East)  
+X0.0 Y1.0 (North)  
+X0.5 Y0.0 (East)  
+X0.0 Y0.75 (North)  
+X-0.75 Y0.0 (West)  
+X0.0 Y1.0 (North)  
+X0.25 Y0.0 (East)  
+X0.0 Y0.25 (North)  
+X-0.25 Y0.0 (West)  
+X0.0 Y1.0 (North)  
+X1.0 Y0.0 (East)  
+X0.0 Y0.5 (North)  
+X0.75 Y0.0 (East)  
+X0.0 Y-1.0 (South)  
+X0.5 Y0.0 (East)  
+X0.0 Y-0.25 (South)  
+X0.25 Y0.0 (East)  
+X0.0 Y0.25 (North)  
+X0.25 Y0.0 (East)  
+X0.0 Y0.25 (North)  
+X0.75 Y0.0 (East)  
+X0.0 Y0.5 (North)  
+X-1.0 Y0.0 (West)  
+X0.0 Y0.75 (North)  
+X-0.5 Y0.0 (West)  
+X0.0 Y1.0 (North)  
+X0.25 Y0.0 (East)  
+X0.0 Y0.5 (North)  
+X2.75 Y0.0 (East)
 (END SEQUENCE)
 G00 G53 Z1.0	(Raise the pen) 
 M30 			(End Program)
