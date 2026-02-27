@@ -15,32 +15,36 @@ M03 S1000		(Spin the pen for better precision)
 Z0.0			(Move the pen to the paper)
 
 (MOVEMENTS TO SOLVE THE MAZE)
-X0.5 Y0.0  
-X0.5 Y0.5  
-X0.5 Y1.5  
-X1.0 Y1.5  
-X1.0 Y2.25  
-X1.75 Y2.25  
-X0.25 Y3.25  
-X0.5 Y3.25  
-X0.5 Y3.5  
-X0.25 Y3.5  
-X0.25 Y4.5  
-X0.25 Y3.75  
-X1.25 Y3.75  
-X1.25 Y4.0  
-X2.0 Y4.0  
-X2.0 Y5.0  
-X1.25 Y5.0  
-X3.0 Y4.0  
-X3.75 Y4.0  
-X3.75 Y4.75  
-X2.75 Y4.75  
-X2.25 Y5.5  
-X2.25 Y6.75  
-X2.5 Y6.75  
-X2.25 Y6.5  
-X2.5 Y6.75
+X0.0 Y0.5  (North)
+X0.5 Y0.5  (East)
+X0.5 Y1.5  (North)
+X1.0 Y1.5  (East)
+X1.0 Y2.25  (North)
+X0.25 Y2.25  (West)
+X0.25 Y3.25  (North)
+X0.5 Y3.25  (East)
+X0.5 Y3.5  (North
+X0.25 Y3.5  (East)
+X0.25 Y4.5  (North)
+X1.25 Y4.5  (East)
+X1.25 Y5.0  (North)
+X2.0 Y5.0  (East)
+X2.0 Y4.0  (South)
+X2.5 Y4.0  (East)
+X2.5 Y3.75  (South)
+X2.75 Y3.75  (East)
+X2.75 Y4.0  (North)
+X3.0 Y4.0  (East)
+X3.0 Y4.25  (North)
+X3.75 Y4.25  (East)
+X3.75 Y4.75  (North)
+X2.75 Y4.75  (West)
+X2.75 Y5.5  (North)
+X2.25 Y5.5  (West)
+X2.25 Y6.5  (North)
+X2.5 Y6.5  (East)
+X2.5 Y7.0  (North)
+X5.25 Y7.0  (East)
 (END SEQUENCE)
 G00 G53 Z0.0	(Raise the pen) 
 M30 			(End Program)
